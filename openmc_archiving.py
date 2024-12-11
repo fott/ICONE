@@ -114,7 +114,7 @@ def createArchivedDataset(archDir, # COMPULSORY
         
 # EXAMPLE
 # from openmc_archiving import *
-# archDir=createArchiveDirectory()
+# archDir=createArchiveDirectory() # this creates a new folder "./run_date_time" in the working script directory
 # createArchivedDataset(archDir,statepoint=sp_filename, script="modules_testing_V1.ipynb",
 #                       comment="essai n°3", source="Neutron 25MeV", geometry="Baseline_V1", geometryPara={'e0':26} 
                           
