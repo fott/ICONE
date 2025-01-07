@@ -5,6 +5,10 @@ Provides sources producing Neutrons and Gammas for (p on Be) (p on Ta) at 25 and
 Currently the sources cannot be tilted
 JD has implemented this capability though —> upgrade the current module
 
+# <geometries.py>
+
+# <materials.py>
+
 
 # <openmc_archiving.py>
 The module provides 2 key procedures
@@ -15,5 +19,7 @@ The archived directory contains the model.xml file, all the output files, the sc
 * Comment : The directory creation and the actually archiving of the files are split to avoid problems (the directory is created before saving things into it)
 Things might be merged into a single command (but this is not much gain)
 
-# <source_ICONE.py>
+# <post-processing.py>
+
+# <activation.py>
 
